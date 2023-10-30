@@ -1,4 +1,4 @@
-* {
+*{
    font-family: 'Roboto', sans-serif;
 }
 
@@ -29,8 +29,7 @@ h1{
 }
 
 .citazione{
-    height: 40vh;
-    width: 50vw;
+    min-height: 40vh;
     color: rgb(97, 97, 97);
     font-size: 25px;
  }
@@ -94,7 +93,7 @@ h1{
    box-shadow: 0px 0px 20px 1px gray;
 }
 .container-mosaico{
-   min-height: 100vh;
+   min-height: 80vh;
 }
 .card-custom6{
    border: 1px solid rgb(182, 182, 182);
@@ -116,6 +115,11 @@ h1{
 .row-mosaic{
    min-height: 30vh;
 }
+.row-mosaic2{
+   min-height: 30vh;
+}
+
+
 .img-custom{
    height: 400px;
    width: 400px;
@@ -172,6 +176,53 @@ h1{
    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0), rgb(0, 0, 0)), url('./media/footer.jpg');
    background-position: center;
    background-size: cover;
+}
+
+
+
+
+
+@media screen and (max-width:580px){
+   h1{
+      font-size: 40px;
+   }
+   .p-header{
+      font-size: 12px;
+      text-align: center;
+   }
+   .row-mosaic2{
+      display: none;
+   }
+   .card-custom6{
+      border: 1px solid rgb(182, 182, 182);
+      padding: 10px;
+      height: 180px;
+      width: 180px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px 1px gray;
+   }
+   .card-custom7{
+      border: 1px solid rgb(182, 182, 182);
+      padding: 10px;
+      height: 150px;
+      width: 150px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 20px 1px gray;
+   }
+   .row-mosaic{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .img-custom{
+      display: none;
+   }
+   .row-piedino{
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+   }
 }
 
 

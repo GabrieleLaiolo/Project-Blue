@@ -26,9 +26,9 @@
     
     <header class="container-fluid">
         <div class="row h-100 align-items-center">
-            <div class="col-12 col-md-4 h-50 ms-5 d-flex justify-content-center flex-column">
+            <div class="col-12 col-md-4 h-50 ms-md-5 d-flex justify-content-center flex-column">
                 <a href="./index.html"><h1 class="text-white">LOREM IPSUM</h1></a>
-                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi tenetur
+                <p class="text-white p-header">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nisi tenetur
                     deleniti quasi aspernatur eligendi a sit mollitia animi.
                 </p>
                 <button type="button" class="btn btn-warning border-3 w-25 mt-4">MORE</button>
@@ -45,14 +45,19 @@
 <!--MAIN -->
 <main>
         
-    <section class=" d-flex justify-content-center mt-3">
-        <div class="citazione text-center">
-            <h2 class="fw-bolder fs-1">Lorem Ipsum <br> Dolor Sit</h2>            
-            <p class="text-center fs-5">
+    <section class=" container-fluid d-flex justify-content-center mt-3">
+        <div class="row citazione text-center w-100 justify-content-center">
+            <div class="col-12">
+                <h2 class="fw-bolder fs-1 mycolor-blue">Lorem Ipsum <br> Dolor Sit</h2>
+            </div>
+
+            <div class="col-12 col-md-6 text-center">           
+            <p class=" text-center fs-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium assumenda laborum officia eaque
                 ducimus nisi perspiciatis saepe illum at quae quaerat possimus laudantium dolor similique facere,
                 iste maxime optio quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, consequuntur?
             </p>
+            </div>
         </div>
     </section>
         
@@ -60,7 +65,7 @@
             <!-- CARD -->
         <div class="row justify-content-between ">
                 
-                <div class="col-6 col-md-3  d-flex justify-content-center">
+                <div class="col-6 mt-4 col-md-3 d-flex justify-content-center">
                     <div class="card card-custom1 px-2 py-1" style="width: 18rem;">
                         <div class="card-body d-flex flex-column justify-content-end">
                             <i class="fa-solid fa-users text-white fs-3"></i>
@@ -71,7 +76,7 @@
                     </div>
                 </div>
                                    
-                <div class="col-6 col-md-3  d-flex justify-content-center">
+                <div class="col-6 mt-4 col-md-3 d-flex justify-content-center">
                     <div class="card card-custom2 px-2 py-1" style="width: 18rem;">
                         <div class="card-body d-flex flex-column justify-content-end">
                             <i class="fa-solid fa-location-dot text-white fs-3"></i>
@@ -82,7 +87,7 @@
                     </div>
                 </div>
                                 
-                <div class="col-6 col-md-3  d-flex justify-content-center">
+                <div class="col-6 mt-4 col-md-3 d-flex justify-content-center">
                     <div class="card card-custom3 px-2 py-1" style="width: 18rem;">
                         <div class="card-body d-flex flex-column justify-content-end">
                             <i class="fa-regular fa-life-ring text-white fs-3"></i>
@@ -93,7 +98,7 @@
                     </div>
                 </div>
                                     
-                <div class="col-6 col-md-3  d-flex justify-content-center">
+                <div class="col-6 mt-4 col-md-3 d-flex justify-content-center">
                     <div class="card card-custom4 px-2 py-1" style="width: 18rem;">
                         <div class="card-body d-flex flex-column justify-content-end">
                             <i class="fa-solid fa-route text-white fs-3"></i>
@@ -107,7 +112,7 @@
     </section>
     <section class="container bg-card-icons">
         <div class="row justify-content-around">
-            <div class="col-12 col-md-5">
+            <div class="col-12 mt-3 mb-3 col-md-5">
                 <div class=" card-custom5">
                     <h5 class="fs-3 mycolor-blue mb-3">
                         lorem ipsum
@@ -115,27 +120,28 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis sunt harum quia. Praesentium, amet consectetur a, architecto at quam dignissimos temporibus corrupti, est eius id placeat cupiditate ab? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at odio ?</p>
                 </div>
             </div>
-            <div class="col-12 col-md-4 d-flex justify-content-around align-items-center flex-wrap ">
+            <div class="col-12 col-md-4 d-flex justify-content-around align-items-center flex-wrap mb-5">
                 <i class="fa-solid fa-fire icons-style fs-3 mx-3 text-danger d-flex align-items-center justify-content-center"></i>
                 <i class="fa-solid fa-seedling icons-style fs-3 mx-3 text-success d-flex align-items-center justify-content-center"></i>
-                <i class="fa-regular fa-bell icons-style fs-3 mx-3 text-warning d-flex align-items-center justify-content-center"></i>
+                <i class="fa-regular fa-bell icons-style fs-3 mx-3 mt-3 text-warning d-flex align-items-center justify-content-center"></i>
                 <i class="fa-solid fa-box-open icons-style fs-3 mx-3 mt-3 text-primary d-flex align-items-center justify-content-center"></i>
                 <i class="fa-solid fa-code-branch icons-style fs-3 mx-3 mt-3 text-secondary d-flex align-items-center justify-content-center"></i>
                 <i class="fa-solid fa-shield-halved icons-style fs-3 mx-3 mt-3 d-flex align-items-center justify-content-center"></i>
             </div>
         </div>
     </section>
+<!-- mosaico  -->
     <section class="container-fluid container-mosaico">
 
-        <div class="row w-50 h-25 align-items-center justify-content-center ms-5 row-mosaic flex-wrap">
-            <div class=" col-5 card-custom6 mx-3">
+        <div class="row w-100 w-md-50 h-25 align-items-center justify-content-center ms-md-5 row-mosaic flex-wrap">
+            <div class=" col-5 col-md-5 card-custom6 mx-3">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2">
                     12
                 </h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
             </div>
-            <div class=" col-3 card-custom7">
+            <div class=" col-3 col-md-3 card-custom7">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2 ">
                     412
@@ -144,15 +150,15 @@
             </div>
         </div>
 
-        <div class="row w-50 h-25 align-items-center justify-content-center row-mosaic flex-wrap">
-            <div class=" col-5 card-custom6 mx-5">
+        <div class="row w-100 w-md-50 h-25 align-items-center justify-content-center row-mosaic flex-wrap">
+            <div class=" col-5 col-md-5 card-custom6 mx-md-5">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2">
                     12
                 </h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
             </div>
-            <div class=" col-3 card-custom7 mx-5">
+            <div class=" col-3 mx-2 col-md-3 card-custom7 mx-md-5">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2 ">
                     412
@@ -161,15 +167,15 @@
             </div>
         </div>
 
-        <div class="row w-75 h-25align-items-center justify-content-end row-mosaic flex-wrap">
-            <div class=" col-5 card-custom6 mx-5">
+        <div class="row w-75 h-25align-items-center justify-content-end row-mosaic2 flex-wrap">
+            <div class=" col-5 col-md-5 card-custom6 mx-5">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2">
                     12
                 </h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
             </div>
-            <div class=" col-3 card-custom7">
+            <div class=" col-3 col-md-3 card-custom7">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2 ">
                     412
@@ -178,15 +184,15 @@
             </div>
         </div>
 
-        <div class="row h-25 align-items-center justify-content-end mx-5 row-mosaic flex-wrap">
-            <div class=" col-5 card-custom6 mx-5">
+        <div class="row h-25 align-items-center justify-content-end mx-5 row-mosaic2 flex-wrap">
+            <div class=" col-5 col-md-5 card-custom6 mx-5">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2">
                     12
                 </h5>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
             </div>
-            <div class=" col-3 card-custom7 mx-5">
+            <div class=" col-3 col-md-3 card-custom7 mx-5">
                 <i class="fa-solid fa-route mycolor-blue fs-3"></i>
                 <h5 class="fs-2 ">
                     412
@@ -195,9 +201,10 @@
             </div>
         </div>
     </section>
+
     <section class="container-fluid vh-100">
         <div class="row h-50 align-items-end justify-content-center">
-            <div class="col-5">
+            <div class="col-10 col-md-5">
                 <div class=" card-custom5">
                     <h5 class="fs-3 mycolor-blue mb-3">
                         lorem ipsum
@@ -210,7 +217,7 @@
             </div>
         </div>
         <div class="row h-50 align-items-center justify-content-center flex-row-reverse">
-            <div class="col-5">
+            <div class="col-10 col-md-5">
                 <div class=" card-custom5">
                     <h5 class="fs-3 mycolor-blue mb-3">
                         lorem ipsum
@@ -224,6 +231,7 @@
         </div>
         
     </section>
+    <!-- timeline  -->
     <section class="container-fluid container-timeline">
         <div class="row mb-5">
             <div class="col-12">
@@ -231,25 +239,25 @@
             </div>
         </div>
         <div class="row h-25 ">
-            <div class="col-6 timeline-sx text-start px-5 time-ballsx position-relative">
-                <h5 class="mycolor-blue fs-2  " >lorem ipsum</h5>
-                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
-            </div> 
-        </div>
-        <div class="row h-25 justify-content-end">
-        <div class="col-6 timeline-dx text-end mx-1 px-5 time-balldx position-relative">
-            <h5 class="mycolor-blue fs-2" >lorem ipsum</h5>
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
-        </div>
-        </div>
-        <div class="row h-25">
-            <div class="col-6 timeline-sx text-start px-5 time-ballsx position-relative">
+            <div class=" col-10 col-md-6 timeline-sx text-start px-5 time-ballsx position-relative">
                 <h5 class="mycolor-blue fs-2" >lorem ipsum</h5>
                 <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
             </div> 
         </div>
         <div class="row h-25 justify-content-end">
-        <div class="col-6 timeline-dx text-end mx-1 px-5 time-balldx position-relative">
+        <div class=" col-10 col-md-6 timeline-dx text-end mx-1 px-5 time-balldx position-relative">
+            <h5 class="mycolor-blue fs-2" >lorem ipsum</h5>
+            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
+        </div>
+        </div>
+        <div class="row h-25">
+            <div class=" col-10 col-md-6 timeline-sx text-start px-5 time-ballsx position-relative">
+                <h5 class="mycolor-blue fs-2" >lorem ipsum</h5>
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
+            </div> 
+        </div>
+        <div class="row h-25 justify-content-end">
+        <div class=" col-10 col-md-6 timeline-dx text-end mx-1 px-5 time-balldx position-relative">
             <h5 class="mycolor-blue fs-2" >lorem ipsum</h5>
             <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum temporibus similique modi delectus ex aliquam eligendi facere repudiandae odio esse ducimus harum, pariatur, voluptatum sed quasi dolor exercitationem in quam!Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero sequi numquam saepe, aperiam vitae odio tenetur quisquam illum aliquam architecto veniam praesentium ad voluptate quo laborum nesciunt culpa reiciendis minima.</p>
         </div>
@@ -261,13 +269,13 @@
         </div>
     </section>
     <footer class="container-fluid bg-piedino">
-        <div class="row h-100 align-items-end">
-            <div class="col-6 h-25 px-3">
+        <div class="row h-100 align-items-end row-piedino">
+            <div class="col-12 col-md-6 h-25 px-3">
                 <h5 class="text-warning fs-2"><b>lorem ipsum dolor</b></h5>
-                <p class="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, amet. Culpa facere neque aut nobis. Inventore aut minus sit sed saepe expedita fugit optio mollitia quisquam ducimus, pariatur a suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consectetur eligendi veniam nemo reprehenderit, earum voluptates dolores nisi placeat quas incidunt numquam eius odio unde sit aspernatur ratione autem quaerat.</p>
+                <p class="text-white ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, amet. Culpa facere neque aut nobis. Inventore aut minus sit sed saepe expedita fugit optio mollitia quisquam ducimus, pariatur a suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem consectetur eligendi veniam nemo reprehenderit, earum voluptates dolores nisi placeat quas incidunt numquam eius odio unde sit aspernatur ratione autem quaerat.</p>
             </div>
-            <div class="col-6 h-25 ">
-                <h5 class="text-warning fs-2 ms-5"><b>Sosial</b></h5>
+            <div class="col-12 mt-5 col-md-4 h-25 ">
+                <h5 class="text-warning fs-2 ms-md-5"><b>Sosial</b></h5>
                 <ul class="d-flex justify-content-around list-unstyled mt-5">
                     <li><i class="fa-brands fa-instagram fs-5 text-white"></i></li>
                     <li><i class="fa-brands fa-facebook fs-5 text-white "></i></li>
