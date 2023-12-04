@@ -19,7 +19,12 @@ header {
 
 h1{
    font-size: 70px;
-   
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+h2, h3, h4, h5 {
+   font-weight: bold;
 }
 
 .wave-style{
@@ -119,6 +124,12 @@ h1{
    min-height: 30vh;
 }
 
+.wrapper-article {
+   min-height: 100vh;
+   margin: 0;
+   margin-bottom: 50px;
+}
+
 
 .img-custom{
    height: 400px;
@@ -130,6 +141,7 @@ h1{
 
 .container-timeline{
    min-height: 100vh;
+   margin-top: 100px;
 }
 
 .timeline-sx{
@@ -178,6 +190,10 @@ h1{
    background-size: cover;
 }
 
+.wrapper-articolo {
+   margin-bottom: 150px;
+   margin-top: 30px;
+}
 
 
 
